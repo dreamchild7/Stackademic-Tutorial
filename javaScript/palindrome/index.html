@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="title">Palindrome</h1>
+        <p class="description">
+            A word, phrase, or squence that reads the same backwards as forwards e.g. madam or nurses run.
+        </p>
+        <form id="form">
+            <div class="form-group">
+                <label for="palindrome">Enter a word/ phrase that is a Palindrome:</label>
+                <input type="text" name="palindrome" id="palindrome" aria-roledescription="palindrome input" placeholder="e.g. madam" onblur="getVal()" />
+            </div>
+            <div class="display"></div>
+            <button class="check-btn" type="submit">Check</button>
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
